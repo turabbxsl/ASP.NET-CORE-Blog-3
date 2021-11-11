@@ -1,0 +1,35 @@
+﻿
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+
+<div class="tech-btm">
+
+    <p>Teknoloji,yazilim ve diger bloglar</p>
+    <form  method="post">
+        <input type="email" placeholder="Email" id="txtName" name="Mail" required="">
+        <input type="submit" id="btnSubmit" value="Abone Ol">
+    </form>
+</div>
+
+<script>
+
+    $(document).ready(function () {
+        $("#btnSubmit").click(function () {
+            $.ajax(
+            {
+                type: "POST",
+                    url: "/NewsLetter/Add_data",
+                    data: {
+                        Mail: $("#txtName").val()
+                    },
+                    success: function (da) {
+                        alert(da)
+                    }
+
+            });
+
+        });
+    });
+
+</script>

@@ -1,0 +1,66 @@
+﻿@model EntityLayer.Concrete.Writer
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+
+<section class="main-content-w3layouts-agileits">
+    <div class="container">
+        <h3 class="tittle">Yazar Kayit Sayfasi</h3>
+        <div class="inner-sec">
+            <div class="login p-5 bg-light mx-auto mw-100">
+
+                @using (Html.BeginForm("Index", "Register", FormMethod.Post))
+                {
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+
+                            <label for="validationCustom01">Adiniz Soyadiniz</label>
+                            @Html.TextBoxFor(x => x.WriterName,new {@class="form-control"})
+                            <p style="color:red;font-size:16px;font-family:Century">@Html.ValidationMessageFor(x => x.WriterName)</p>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="validationCustom02">Mail</label>
+                            @Html.TextBoxFor(x => x.WriterMail, new { @class = "form-control" })
+                            <p style="color:red;font-size:16px;font-family:Century">@Html.ValidationMessageFor(x => x.WriterMail)</p>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="exampleInputPassword1 mb-2">Sifre</label>
+                            @Html.TextBoxFor(x => x.WriterPassword, new { @class = "form-control" })
+                            <p style="color:red;font-size:16px;font-family:Century">@Html.ValidationMessageFor(x => x.WriterPassword)</p>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="exampleInputPassword2 mb-2">Gorsel Dosya Yolu</label>
+                            @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
+                            <p style="color:red;font-size:16px;font-family:Century">@Html.ValidationMessageFor(x => x.WriterImage)</p>
+                        </div>
+
+                    </div>
+                    <button type="submit" class="btn btn-primary submit mb-4">Kayit Ol</button>
+                    <p>
+                        <a href="#" id="btn1">Tum sartlari okudum,kabul ediyorum</a>
+                    </p>
+                }
+
+            </div>
+        </div>
+    </div>
+    <br />
+    <script>
+        $('#btn1').click(function () {
+            swal("Kullanici Sartlari", "Bu Kullanım Koşulları, bu web sitesinin ve AstraZeneca Türkiye’nin sponsor olduğu ve bu Kullanım Koşullarına link veren diğer web sitelerinin ilgili kısımlarının kullanımı için geçerlidir. Söz konusu diğer web sitelerinin sahiplerinin kendi, ilave kullanım koşulları da olabilir. AstraZeneca Türkiye’nin kurumsal iştiraklerinin de kendi Kullanım Koşulları olabileceğine dikkat edilmelidir.\nBu web sitesinde yer alan ürün bilgileri, AstraZeneca Türkiye tarafından sadece genel bilgi amaçlı olarak sağlanmaktadır. Amaç eksiksiz tıbbi bilgi ya da tavsiye vermek değildir. Eksiksiz tıbbi bilgileri ve tavsiyeleri her zaman reçete yazan hekiminizden veya diğer sağlık mesleği mensubu danışmanlarından almanız gerekmektedir. Tıbbi bir rahatsızlığınız olması halinde derhal kendi doktorunuzu veya sağlık hizmeti sağlayıcınızı görün. Kişiselleştirilmiş tıbbi teşhis veya hastaya özel tedavi tavsiyeleri sunmamaktayız. Bir çok ilaca ve tıbbi cihaza erişim sadece reçete mümkündür. Sağlık mesleği mensupları ürünün kullanma talimatından tüm tıbbi bilgileri edinebilir. Diğer yandan, web-sitemizdeki belirli bölümler yalnızca sağlık mesleği mensubu olduğunu kabul ve taahhüt eden web sitesi ziyaretçilerine tahsis edilmiştir ve onların erişimine açıktır. Bu bölümlere sağlık mesleği mensubu olmayan ziyaretçilerimizin erişimi kesinlikle yasaktır.\nBurada belirtilen bazı ürünler tüm ülkelerde aynı Ticari Marka ile satılmayabilir. Bu Sitede belirtilen ürünler, kullanıcı ülkeye bağlı olarak farklı resmi gerekliliklere tabi olabilir. Sonuç olarak, ziyaretçilere bu Sitenin veya belirli bölümlerinin sadece belirli uzman kullanıcılara veya sadece belirli ülkelerdeki hedef kitlelere yönelik olduğu bildiriminde bulunulabilir. Bu ürünlere ilişkin bilgiler ülkeler arasında farklılık gösterebilir. Siteyi ziyaret eden kişiler yerel tıbbi kaynaklardan ve düzenleyici makamlarından kendi ülkeleri için geçerli bilgileri öğrenmelidir.\nBu sitedeki metinler, resimler, ses ve video dosyaları dahil bilgileri sadece ticari olmayan kendi şahsi amaçlarınız için indirebilir veya kullanabilirsiniz. Bu bilgileri AstraZeneca Türkiye’nin izni olmaksızın ticari amaçlarla kullanamazsınız veya yeniden kullanamazsınız. İndirdiğiniz her türlü materyalin içeriğindeki her bir telif veya diğer mülkiyet hakkı bildirimini saklamanız ve aynen kullanmanız gerekmektedir. Bu sitede gördüğünüz veya okuduğunuz her şeyin aksi belirtilmedikçe telif hakkı ile korunduğunu ve AstraZeneca Türkiye’nin yazılı izni olmaksızın kullanılamayacağını kabul etmeniz gerekmektedir. AstraZeneca Türkiye, sitede görüntülenen materyalleri kullanmanızın AstraZeneca Türkiye’ye ait veya bağlı olmayan üçüncü tarafların haklarını ihlal etmediğini beyan veya taahhüt etmemektedir. AstraZeneca Türkiye size bu sınırlı yetki dışında Bilgilerle ilgili herhangi bir lisans veya hak vermemektedir.");
+        });
+    </script>
+</section>
+
+

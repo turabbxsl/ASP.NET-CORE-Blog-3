@@ -1,0 +1,10 @@
+C:\Users\HP\source\repos\Code Kap 2020\EntityLayer\bin\Debug\netstandard2.1\EntityLayer.deps.json
+C:\Users\HP\source\repos\Code Kap 2020\EntityLayer\bin\Debug\netstandard2.1\EntityLayer.dll
+C:\Users\HP\source\repos\Code Kap 2020\EntityLayer\obj\Debug\netstandard2.1\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Code Kap 2020\EntityLayer\obj\Debug\netstandard2.1\EntityLayer.AssemblyInfo.cs
+C:\Users\HP\source\repos\Code Kap 2020\EntityLayer\bin\Debug\netstandard2.1\EntityLayer.pdb
+C:\Users\HP\source\repos\Code Kap 2020\EntityLayer\obj\Debug\netstandard2.1\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Code Kap 2020\EntityLayer\obj\Debug\netstandard2.1\EntityLayer.dll
+C:\Users\HP\source\repos\Code Kap 2020\EntityLayer\obj\Debug\netstandard2.1\EntityLayer.pdb
+C:\Users\HP\source\repos\Code Kap 2020\EntityLayer\obj\Debug\netstandard2.1\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Code Kap 2020\EntityLayer\obj\Debug\netstandard2.1\EntityLayer.csproj.AssemblyReference.cache

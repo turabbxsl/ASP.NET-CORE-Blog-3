@@ -1,0 +1,17 @@
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\bin\Debug\netstandard2.1\appsettings.Development.json
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\bin\Debug\netstandard2.1\appsettings.json
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\bin\Debug\netstandard2.1\Properties\launchSettings.json
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\bin\Debug\netstandard2.1\Code Kap 2020.dll.config
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\bin\Debug\netstandard2.1\Code Kap 2020.deps.json
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\bin\Debug\netstandard2.1\Code Kap 2020.dll
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\bin\Debug\netstandard2.1\BusinessLayer.dll
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\bin\Debug\netstandard2.1\DataAccessLayer.dll
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\bin\Debug\netstandard2.1\EntityLayer.dll
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\bin\Debug\netstandard2.1\BusinessLayer.pdb
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\bin\Debug\netstandard2.1\DataAccessLayer.pdb
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\bin\Debug\netstandard2.1\EntityLayer.pdb
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\obj\Debug\netstandard2.1\Code Kap 2020.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\obj\Debug\netstandard2.1\Code Kap 2020.dll.config
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\obj\Debug\netstandard2.1\Code Kap 2020.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\obj\Debug\netstandard2.1\Code Kap 2020.AssemblyInfo.cs
+C:\Users\HP\source\repos\Code Kap 2020\Code Kap 2020\obj\Debug\netstandard2.1\Code Kap 2020.csproj.CopyComplete

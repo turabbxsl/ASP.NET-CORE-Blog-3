@@ -1,0 +1,46 @@
+﻿
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+
+<div class="comment-top">
+    <h4>Yorum Yapin</h4>
+    <br />
+    <div class="comment-bottom">
+
+        <form method="post">
+            <input class="form-control" type="text" name="CommentUsername" id="commentUsername" placeholder="Adiniz Soyadiniz" required="">
+            <br />
+            <input class="form-control" type="text" name="CommentTitle" id="commentTitle" placeholder="Konu" required="">
+            <br />
+            <textarea class="form-control" name="CommentContent" id="commentContent" placeholder="Mesajiniz..." required=""></textarea>
+            <br />
+            <button type="submit" class="btn btn-primary submit" id="btnSubmit">Yorum Yap</button>
+        </form>
+
+    </div>
+</div>
+
+<script>
+
+    $(document).ready(function () {
+        $("#btnSubmit").click(function () {
+            $.ajax(
+                {
+                    type: "POST",
+                    url: "/Comment/Insert",
+                    data: {
+                        CommentUsername: $("#commentUsername").val(),
+                        CommentTitle: $("#commentTitle").val(),
+                        CommentContent: $("#commentContent").val(),
+                    },
+                    success: function (da) {
+                        alert(da)
+                    }
+
+                });
+
+        });
+    });
+
+</script>

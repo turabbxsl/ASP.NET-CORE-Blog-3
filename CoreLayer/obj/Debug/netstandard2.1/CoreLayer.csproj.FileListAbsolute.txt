@@ -1,0 +1,10 @@
+C:\Users\HP\source\repos\Code Kap 2020\CoreLayer\bin\Debug\netstandard2.1\CoreLayer.deps.json
+C:\Users\HP\source\repos\Code Kap 2020\CoreLayer\bin\Debug\netstandard2.1\CoreLayer.dll
+C:\Users\HP\source\repos\Code Kap 2020\CoreLayer\bin\Debug\netstandard2.1\CoreLayer.pdb
+C:\Users\HP\source\repos\Code Kap 2020\CoreLayer\obj\Debug\netstandard2.1\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Code Kap 2020\CoreLayer\obj\Debug\netstandard2.1\CoreLayer.AssemblyInfo.cs
+C:\Users\HP\source\repos\Code Kap 2020\CoreLayer\obj\Debug\netstandard2.1\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Code Kap 2020\CoreLayer\obj\Debug\netstandard2.1\CoreLayer.dll
+C:\Users\HP\source\repos\Code Kap 2020\CoreLayer\obj\Debug\netstandard2.1\CoreLayer.pdb
+C:\Users\HP\source\repos\Code Kap 2020\CoreLayer\obj\Debug\netstandard2.1\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Code Kap 2020\CoreLayer\obj\Debug\netstandard2.1\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig

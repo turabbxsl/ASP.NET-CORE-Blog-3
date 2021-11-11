@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\bin\Debug\netstandard2.1\BusinessLayer.deps.json
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\bin\Debug\netstandard2.1\BusinessLayer.dll
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\bin\Debug\netstandard2.1\BusinessLayer.pdb
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\bin\Debug\netstandard2.1\DataAccessLayer.dll
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\bin\Debug\netstandard2.1\EntityLayer.dll
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\bin\Debug\netstandard2.1\DataAccessLayer.pdb
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\bin\Debug\netstandard2.1\EntityLayer.pdb
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\obj\Debug\netstandard2.1\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\obj\Debug\netstandard2.1\BusinessLayer.AssemblyInfo.cs
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\obj\Debug\netstandard2.1\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\obj\Debug\netstandard2.1\BusinessLayer.dll
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\obj\Debug\netstandard2.1\BusinessLayer.pdb
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\obj\Debug\netstandard2.1\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Code Kap 2020\BusinessLayer\obj\Debug\netstandard2.1\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig

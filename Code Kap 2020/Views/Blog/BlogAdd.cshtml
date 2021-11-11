@@ -1,0 +1,42 @@
+﻿
+@model EntityLayer.Concrete.Blog
+
+
+@{
+    ViewData["Title"] = "BlogAdd";
+    Layout = "~/Views/Shared/LayoutYeni.cshtml";
+}
+
+<h1>Yeni Blog Ekle</h1>
+
+@using (Html.BeginForm("BlogAdd", "Blog", FormMethod.Post))
+{
+    @Html.Label("Blog Basligi")
+    @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control" })
+    <p style="color:red;font-size:14px;">
+        @Html.ValidationMessageFor(x => x.BlogTitle)
+    </p>
+
+    @Html.Label("Blog Gorsel")
+    @Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })
+    <p style="color:red;font-size:14px;">
+        @Html.ValidationMessageFor(x => x.BlogImage)
+    </p>
+
+    @Html.Label("Blog Kucuk Gorsel")
+    @Html.TextBoxFor(x => x.BlogThumbnailImage, new { @class = "form-control" })
+
+    @Html.Label("Kategoriya")
+    @Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.categories,new {@class="form-control" })
+
+    @Html.Label("Blog Icerigi")
+    @Html.TextAreaFor(x => x.BlogContent, 15, 3, new { @class = "form-control" })
+    <p style="color:red;font-size:14px;">
+        @Html.ValidationMessageFor(x => x.BlogContent)
+    </p>
+
+    <br />
+
+    <button class="btn btn-info">Yaziyi Kaydet</button>
+}
+
